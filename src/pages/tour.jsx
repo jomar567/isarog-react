@@ -1,10 +1,10 @@
-import NavigationBar from "../components/Navbar"
+import CaramoanTour from "../components/Tour/CaramoanTour"
 
 const Tour = () => {
     return (
         <>
-            <NavigationBar />
-            Tour
+            
+            <CaramoanTour/>
         </>
     )
 }

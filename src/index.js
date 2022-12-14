@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     element: <Hotels />,
   },
   {
-    path: "/tour",
+    path: "/tour/caramoan-tour",
     element: <Tour />,
   },
 ]);
