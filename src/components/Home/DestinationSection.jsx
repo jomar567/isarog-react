@@ -14,7 +14,7 @@ const DetinationSection = () => {
             <div className="slider destination-slider">
             <div className="rounded-4">
                 <div className="card">
-                <img className="img-fluid" alt="WaterSports Complex" src="./../../assets/images/watersports.png" />
+                <img className="img-fluid" alt="WaterSports Complex" src={require("./../../assets/images/watersports.png" )}/>
                 <div className="card-body lh-1">
                     <h4 className="card-title text-blue">WaterSports Complex</h4>
                     <p className="card-text">Naga City, Camarines Sur</p>
@@ -28,7 +28,7 @@ const DetinationSection = () => {
             </div>
             <div className="rounded-4">
                 <div className="card">
-                <img className="img-fluid" alt="Lahos Island" src="./../../assets/images/LahosIsland.png" />
+                <img className="img-fluid" alt="Lahos Island" src={require("./../../assets/images/LahosIsland.png" )}/>
                 <div className="card-body lh-1">
                     <h4 className="card-title text-blue">Lahos Island</h4>
                     <p className="card-text">Caramoan, Camarines Sur</p>
@@ -42,7 +42,7 @@ const DetinationSection = () => {
             </div>
             <div className="rounded-4">
                 <div className="card">
-                <img className="img-fluid" alt="Aguirangan Island" src="./../../assets/images/AguiranganIsland.png"/>
+                <img className="img-fluid" alt="Aguirangan Island" src={require("./../../assets/images/AguiranganIsland.png")}/>
                 <div className="card-body lh-1">
                     <h4 className="card-title text-blue">Aguirangan Island</h4>
                     <p className="card-text">Presentacion, Camarines Sur</p>
@@ -52,7 +52,7 @@ const DetinationSection = () => {
             </div>
             <div className="rounded-4">
                 <div className="card">
-                <img className="img-fluid" alt="Siruma Beach" src="./../../assets/images/SirumaBeach.png"/>
+                <img className="img-fluid" alt="Siruma Beach" src={require("./../../assets/images/SirumaBeach.png")}/>
                 <div className="card-body lh-1">
                     <h4 className="card-title text-blue">Siruma Beach</h4>
                     <p className="card-text">Siruma, Camarines Sur</p>
@@ -62,7 +62,7 @@ const DetinationSection = () => {
             </div>
             <div className="rounded-4">
                 <div className="card">
-                <img className="img-fluid" alt="Atulayan Island" src="./../../assets/images/AtulayanIsland.png"/>
+                <img className="img-fluid" alt="Atulayan Island" src={require("./../../assets/images/AtulayanIsland.png")}/>
                 <div className="card-body lh-1">
                     <h4 className="card-title text-blue">Atulayan Island</h4>
                     <p className="card-text">Sagnay, Camarines Sur</p>
@@ -72,7 +72,7 @@ const DetinationSection = () => {
             </div>
             <div className="rounded-4">
                 <div className="card">
-                <img className="img-fluid" alt="Matukad Island" src="./../../assets/images/MatukadIsland.png"/>
+                <img className="img-fluid" alt="Matukad Island" src={require("./../../assets/images/MatukadIsland.png")}/>
                 <div className="card-body lh-1">
                     <h4 className="card-title text-blue">Matukad Island</h4>
                     <p className="card-text">Caramoan, Camarines Sur</p>
@@ -82,7 +82,7 @@ const DetinationSection = () => {
             </div>
             <div className="rounded-4">
                 <div className="card">
-                <img className="img-fluid" alt="Cagbalinad Island" src="./../../assets/images/CagbalinadIsland.png"/>
+                <img className="img-fluid" alt="Cagbalinad Island" src={require("./../../assets/images/CagbalinadIsland.png")}/>
                 <div className="card-body lh-1">
                     <h4 className="card-title text-blue">Cagbalinad Island</h4>
                     <p className="card-text">Caramoan, Camarines Sur</p>
