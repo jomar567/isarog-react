@@ -124,7 +124,8 @@
     transform: translate(-50%, -50%);
   }
   .about__header nav,
-  .togaweResort__header nav  {
+  .togaweResort__header nav,
+  .caramoanTour__header nav  {
     padding-top: .5rem;
   }
   /* Tour Packages */
