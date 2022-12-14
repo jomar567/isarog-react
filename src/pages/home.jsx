@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <HeroSection />
-            <DetinationSection/>
+            {/* <DetinationSection/> */}
         </>
     )
 }
