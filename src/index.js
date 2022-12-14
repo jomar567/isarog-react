@@ -14,6 +14,7 @@ import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import Hotels from './pages/hotels';
 import Tour from './pages/tour';
+import NoPage404 from './pages/nopage_404';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/tour/caramoan-tour",
     element: <Tour />,
+  },
+  {
+    path: "*",
+    element: <NoPage404 />,
   },
 ]);
 

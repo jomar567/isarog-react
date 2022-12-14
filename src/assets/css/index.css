@@ -226,6 +226,14 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 .gmap_iframe {
   height:289px!important;
 }
+.notFoundPage {
+  width: 100%;
+  max-width: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
