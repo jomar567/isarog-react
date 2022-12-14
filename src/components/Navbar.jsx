@@ -19,7 +19,7 @@ const NavigationBar = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink exact to="/about" activeClassName="active" className="nav-link text-white mx-lg-2 gilroy-light">
+                            <NavLink to="/about" activeClassName="active" className="nav-link text-white mx-lg-2 gilroy-light">
                                 About
                             </NavLink>
                         </li>
