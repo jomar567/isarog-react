@@ -1,10 +1,9 @@
-import NavigationBar from "../components/Navbar"
+import TogaweResort from "../components/Hotels/TogaweResort"
 
 const Hotels = () => {
     return (
         <>
-            <NavigationBar />
-            Hotels
+            <TogaweResort/>
         </>
     )
 }

@@ -29,7 +29,7 @@ const NavigationBar = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/hotels" activeClassName="active" className="nav-link text-white mx-lg-2 gilroy-light">
+                            <NavLink to="/hotels/togawe-resort" activeClassName="active" className="nav-link text-white mx-lg-2 gilroy-light">
                                 Hotels
                             </NavLink>
                         </li>

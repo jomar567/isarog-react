@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <AboutPage />,
   },
   {
-    path: "/hotels",
+    path: "/hotels/togawe-resort",
     element: <Hotels />,
   },
   {
