@@ -1,10 +1,11 @@
-import NavigationBar from "../components/Navbar"
+import DetinationSection from "../components/Home/DestinationSection"
+import HeroSection from "../components/Home/HeroSection"
 
 const Home = () => {
     return (
         <>
-            <NavigationBar />
-            Home
+            <HeroSection />
+            <DetinationSection/>
         </>
     )
 }
