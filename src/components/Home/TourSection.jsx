@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 const TourSection = () => {
     return (
@@ -12,7 +13,7 @@ const TourSection = () => {
                 <div className="tour-package__content">
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                    <a href="/tour/tour-packages/caramoanIslandHoping.html">
+                    <NavLink activeClassName="active" to="/tour/caramoan-tour">
                         <h5 className="text-muted">CARAMOAN, CAM SUR</h5>
                         <div className="card text-white border-0">
                         <img src={require("./../../assets/images/CaramoanTour.png")} height="250" className="card-img" alt="Caramoan Tour"/>
@@ -24,7 +25,7 @@ const TourSection = () => {
                             </div>
                         </div>
                         </div>
-                    </a>
+                    </NavLink>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
                     <a href="#">

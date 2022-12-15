@@ -234,6 +234,11 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.notFoundPage button:hover {
+  border: solid #fff 2px !important;
+  background: #4B56D2;
+  color: #fff;
+}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;

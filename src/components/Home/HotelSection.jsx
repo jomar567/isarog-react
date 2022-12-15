@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 const HotelSection = () => {
     return (
@@ -12,7 +13,7 @@ const HotelSection = () => {
 
                 <div className="row g-5">
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                    <a href="/hotels_and_resorts/togaweResort.html">
+                    <NavLink activeClassName="active" to="/hotels/togawe-resort">
                         <div className="card text-white border-0">
                         <img src={require("./../../assets/images/TogaweCoveResort.png")} height="300" className="card-img" alt="Tugawe Resort"/>
                         <div className="card-img-overlay pe-0">
@@ -30,7 +31,7 @@ const HotelSection = () => {
                             </div>
                         </div>
                         </div>
-                    </a>
+                    </NavLink>
                     <div className="d-grid gap-2 col-6 mx-auto mt-3">
                         <button className="btn custom-btn border-0" type="button">CHECK PRICES</button>
                         <button className="btn custom-btn__reversed border-0" type="button">BOOK NOW</button>
